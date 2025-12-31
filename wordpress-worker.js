@@ -20,15 +20,38 @@
  * If you want to remove an IMAGE option, simple set 'undefined'. For example: IMAGE_QUALITY: undefined.
  */
 const SITES_CONFIG = [
-    /*
-	{
-        DOMAIN: '...',
-		REWRITE_LINK_TAGS: true, REWRITE_STYLE_TAGS: true, REWRITE_IMAGE_TAGS: true, REWRITE_HREF_TAGS: true, REWRITE_DIV_TAGS: true, REWRITE_SVG_TAGS: true,
-		IMAGE_LAZY_LOAD: true, IMAGE_QUALITY: 90, IMAGE_FIT: 'crop', IMAGE_GRAVITY: 'auto', IMAGE_SHARPEN: 1, IMAGE_METADATA: 'none',
-    },
-	*/
-    // Add more as needed
+  {
+    DOMAIN: 'hagel-it.de',
+    REWRITE_LINK_TAGS: true,
+    REWRITE_STYLE_TAGS: true,
+    REWRITE_IMAGE_TAGS: true,
+    REWRITE_HREF_TAGS: true,
+    REWRITE_DIV_TAGS: true,
+    REWRITE_SVG_TAGS: true,
+    IMAGE_LAZY_LOAD: true,
+    IMAGE_QUALITY: 75,
+    IMAGE_FIT: 'scale-down',
+    IMAGE_GRAVITY: 'auto',
+    IMAGE_SHARPEN: 1,
+    IMAGE_METADATA: 'none',
+  },
+  {
+    DOMAIN: 'www.hagel-it.de',
+    REWRITE_LINK_TAGS: true,
+    REWRITE_STYLE_TAGS: true,
+    REWRITE_IMAGE_TAGS: true,
+    REWRITE_HREF_TAGS: true,
+    REWRITE_DIV_TAGS: true,
+    REWRITE_SVG_TAGS: true,
+    IMAGE_LAZY_LOAD: true,
+    IMAGE_QUALITY: 75,
+    IMAGE_FIT: 'scale-down',
+    IMAGE_GRAVITY: 'auto',
+    IMAGE_SHARPEN: 1,
+    IMAGE_METADATA: 'none',
+  },
 ];
+
 
 // END EDIT -------------------------------------------------------
 // DO NOT EDIT BELOW THIS LINE. JUST STOP.
